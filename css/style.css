@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'BigNoodleTitling';
+	font-style: normal;
+	font-weight: normal;
+	src: local('BigNoodleTitling'), url('big_noodle_titling.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'BigNoodleTitling Oblique';
+	font-style: normal;
+	font-weight: normal;
+	src: local('BigNoodleTitling Oblique'), url('big_noodle_titling_oblique.woff') format('woff');
+}
+
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Microsoft YaHei', sans-serif;
+	overflow: hidden;
+	margin: 0px;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+    -ms-user-select: none;
+}
+
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#main {
+	overflow: hidden;
+}
+
+#right {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #111111;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#left {
+	position: absolute;
+	top: 0px;
+	background: rgba(221, 221, 221, 0.0);
+	height: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+#left-bg, #right-bg {
+	z-index: -1;
+}
