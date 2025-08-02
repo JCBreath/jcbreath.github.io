@@ -1,0 +1,179 @@
+body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;  /* needed to make sure body fills up window */
+    display: flex;
+    margin: 0;
+	flex-direction: column; /*stack items inside horizontally*/
+}
+
+header {
+	text-align: left;
+	background-color: #E8AB9E; 
+	font-family: 'Montserrat', sans-serif;
+	/*font-size: x-large;*/
+	width: 100%;
+	padding: 40px 25px 40px 25px;
+	margin: 0;
+	flex: 0 0 auto;  /* don't grow, don't shrink, hold contents */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.header-title {
+
+}
+
+.header-nav {
+	margin-right: 5%;
+}
+
+#title {
+	font-size: 300%;
+}
+
+#subtitle {
+	font-size: 150%;
+}
+
+.bar {
+	font-size: small;
+	max-height: 10px;
+}
+
+h1{
+	color: white;
+	margin: 0;
+	font-size: xx-large;
+	
+}
+
+h4{
+	color: white;
+	font-weight: normal;
+	margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+li {
+	 float: left;
+}
+
+a {
+	display: block;
+	padding: 25px;
+	color: white;
+	font-size: medium;
+	text-decoration: none;
+
+}
+
+.display {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.display-text {
+	padding: 15px;
+	padding-top: 0px;
+	width: 30%;
+}
+
+.display-pic {
+	padding: 15px;
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#heading-title {
+	color: #6C2E2F;
+	font-size: 150%;
+	font-weight: bolder;
+	margin-bottom: 1px;
+}
+
+#vertical-bar {
+	display: none;
+}
+
+#heading-info {
+	color: #6C2E2F;
+	font-size: 150%;
+	font-weight: 100;
+	margin-top: 1px;
+}
+
+#sep-line {
+	line-height: 0;
+	font-weight: 400;
+	color: #6C2E2F;
+}
+
+#text {
+	font-weight: 400;
+	font-size: 85%;
+	line-height: 1.6;
+	color: #6C2E2F;
+}
+
+.pic {
+	padding-left: 3%; 
+	width: 47%
+}
+
+img {
+	width: 100%
+}
+
+h2 {
+	color: #6C2E2F;
+	font-size: large;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+h5 {
+	font-weight: normal;
+	font-style: italic;
+	color: #6C2E2F;
+	margin-top: 0px;
+}
+
+footer {
+    background-color: #E8AB9E;
+    width: 100%;
+    margin: 0;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.8;
+    padding: 10px 10px 10px 10px;
+    font-size: small;
+    font-weight: bold;
+}
+
+#location {
+	padding: 20px;
+	display: flex; /* remove underline */
+}
+
+#hours {
+	padding: 20px;
+}
+
+/* SMALL */
+@media (max-width: 480px) {
+
+}
