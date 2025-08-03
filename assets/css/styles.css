@@ -838,3 +838,7 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+.icon-inline {
+  vertical-align: middle;
+}
